@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+
+  font-family: sans-serif;
+  background-color: #494444;
+}
+.commentWarp{
+  width: 600px;
+  /* height: 400px; */
+  background-color: #fff;
+  margin: 20px auto;
+  padding:20px 20px 50px 20px;
+}
+.commentInput{
+  border:1px solid #DFDDDD;
+  padding:20px;
+}
+.commentInput div.user,.commentInput div.context{
+  margin-bottom: 30px;
+}
+.commentInput label{
+  display: inline-block;
+  width: 80px;
+}
+.commentInput input{
+  width: 466px;
+  height: 30px;
+  border:1px solid #DFDDDD;
+  padding-left: 10px; 
+}
+.commentInput textarea{
+  vertical-align: top;
+  width: 456px;
+  height: 140px;
+  padding:10px;
+  border:1px solid #DFDDDD;;
+}
+.commentInput button{
+ margin-left:492px ;
+ padding:5px 20px;
+ border-radius: 3px;
+ color:#fff;
+ background-color: #0AA4E0;
+ border:none;
+ cursor: pointer;
+}
+
+
+/*评论页 comment.js*/
+.comment::after{
+content:"";
+clear: both;
+display: block;
+}
+.comment{
+  position: relative;
+  zoom:1;
+  padding:20px 0;
+  border-bottom:1px solid #DFDDDD;
+}
+.comment div.user,.comment p{
+  float: left;
+}
+.comment div.user{
+  width: 80px;
+  color:#0AA4E0;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "幼圆"
+}
+.comment p{
+  width:430px;
+  font-size: 14px;
+}
+.comment .time{
+  float: right;
+  font-size: 12px;
+  color:#999;
+  display: block;
+}
+a.del{
+position: absolute;
+text-decoration: none;
+background-color: red;
+display: block;
+padding:5px 0;
+width: 60px;
+text-align: center;
+color:#fff;
+border-radius:3px;
+/* display: none; */
+-webkit-transition: all  0.5s ease;
+-moz-transition: all  0.5s ease;
+transition: all 0.5s ease;
+right: -60px;
+}
+.delwarp{
+  position: absolute;
+  right: 0;
+  width: 60px;
+  height: 30px;
+ overflow: hidden;
+}
+.delwarp:hover .del{
+    right: 0;
+}
