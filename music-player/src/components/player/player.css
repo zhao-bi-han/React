@@ -1,0 +1,128 @@
+.player{
+  width: 600px;
+  margin: 100px auto;
+  /* background-color: #fff; */
+  zoom: 1;
+  font-family: "幼圆"
+}
+.player::after{
+    content:'';
+    clear: both;
+    display: block;
+}
+.player .left{
+    width: 400px;
+    float: left;
+}
+.player .right{
+    width:200px;
+    float: left;
+}
+.left a.my{
+    text-decoration: none;
+    color: #0DA75F;
+    font-size: 14px;
+}
+.left a.my:hover{
+    color:#67E6A6
+}
+.left h2{
+    margin: 20px 0 10px 0;
+
+}
+.singer{
+    font-size: 14px;
+    color:#333;
+}
+.voice-progress{
+    width: 100px;
+}
+.time-voice{
+    margin: 20px 0;
+    height: 20px;
+    line-height: 20px;
+    color:#999;
+    font-size:14px;
+}
+.time-voice span,.time-voice div.voice{
+    display: inline-block
+}
+.time-voice span{
+    vertical-align: middle;
+}
+.time-voice div.voice{
+    padding-left:16px;
+}
+div.voice i{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../assets/img/voice.png") center no-repeat;
+    background-size: 90%;
+    vertical-align: middle;
+}
+div.voice .voice-progress{
+    display: inline-block;
+    margin-left: 5px;
+    display: none;
+}
+div.voice:hover .voice-progress{
+    display:inline-block;
+}
+.voice-progress .progress-component,.voice-progress .progress{
+    height: 2px;
+}
+.play-progress {
+    margin-top: 8px;
+}
+.control{
+    margin-top: 36px;
+}
+.control a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+.control a.pre{
+    background: url("../../assets/img/sprite.png") 0 -32px no-repeat;
+}
+.control a.play{
+    background: url("../../assets/img/sprite.png") 0 0 no-repeat;
+}
+.control a.pause{
+    background: url("../../assets/img/sprite.png") -32px 0 no-repeat;
+}
+.control a.next{
+    background: url("../../assets/img/sprite.png") -32px -32px no-repeat;
+}
+.control .loop{
+    display: block;
+    float: right;
+    width: 32px;
+    height: 32px;
+    background: url("../../assets/img/loop.png") center no-repeat;
+    background-size:90%;
+    cursor: pointer;
+}
+.picture{
+    margin-top: 50px;
+}
+.picture img{
+    margin-left: 25px;
+    width: 150px;
+    height: 150px;
+    border-radius:100%;
+   
+}
+.run{
+    animation: run 5s linear infinite;
+}
+@keyframes run{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

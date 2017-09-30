@@ -1,0 +1,34 @@
+.musicList{
+    width:800px;
+    margin: 100px auto;
+    font-size: 14px;
+}
+.musicList table img{
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.musicList table thead tr{
+    height: 40px;
+    color:#666;
+ 
+}
+.musicList table tbody tr td{
+    width: 170px;
+    height: 80px;
+    color:#333;
+}
+.musicList table tbody tr td:first-child{
+    width: 480px;
+}
+.musicList table tbody tr td a{
+    text-decoration: none;
+    color:#999
+}
+.musicList table tbody tr td a:hover{
+    color:#575A57;
+}
+.musicList table tbody tr.foucs td{
+    color:#40BB40;
+}
