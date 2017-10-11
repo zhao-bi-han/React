@@ -3,7 +3,7 @@ import $ from 'jquery';
 import  jPlayer  from 'jplayer';
 import Progress from '../progress/progress';
 import './player.css';
-
+import { BrowserRouter as Router,Link, Route } from 'react-router-dom';
 let duration=null;
 class Player extends Component{
     constructor(){
@@ -49,7 +49,7 @@ class Player extends Component{
         return(
             <div className="player" >
             <div className="left">
-                   <a href="javascript:;" className="my">我的私人音乐坊 ></a>
+                   <a href="javascript:;" className="my"><Link to='/list'>我的私人音乐坊 ></Link></a>
               <h2>{this.props.currentMusic.musicName}</h2>
               <span className="singer">{this.props.currentMusic.musicPro}</span>
               <div className="time-voice">

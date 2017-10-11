@@ -1,3 +1,4 @@
+
 .player{
   width: 600px;
   margin: 100px auto;
@@ -18,12 +19,12 @@
     width:200px;
     float: left;
 }
-.left a.my{
+.left a{
     text-decoration: none;
     color: #0DA75F;
     font-size: 14px;
 }
-.left a.my:hover{
+.left a:hover{
     color:#67E6A6
 }
 .left h2{
