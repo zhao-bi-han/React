@@ -97,14 +97,21 @@ div.voice:hover .voice-progress{
 .control a.next{
     background: url("../../assets/img/sprite.png") -32px -32px no-repeat;
 }
-.control .loop{
+.control i{
     display: block;
     float: right;
     width: 32px;
     height: 32px;
-    background: url("../../assets/img/loop.png") center no-repeat;
     background-size:90%;
     cursor: pointer;
+}
+.control .loop{
+    background: url("../../assets/img/loop.png") center no-repeat;
+    background-size:86%;
+}
+.control .order{
+    background: url("../../assets/img/order.png") center no-repeat;
+    background-size:86%;
 }
 .picture{
     margin-top: 50px;

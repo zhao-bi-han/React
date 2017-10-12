@@ -18,13 +18,15 @@
     width: 170px;
     height: 80px;
     color:#333;
+    cursor: pointer;
 }
 .musicList table tbody tr td:first-child{
     width: 480px;
 }
 .musicList table tbody tr td a{
     text-decoration: none;
-    color:#999
+    color:#999;
+  
 }
 .musicList table tbody tr td a:hover{
     color:#575A57;
