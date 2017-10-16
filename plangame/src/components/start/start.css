@@ -1,0 +1,37 @@
+.start-warp{ width: 100%; height: 100%; background: url("../../assert/img/pig.png") no-repeat;background-size:cover;padding-top:30px;}
+.start-left{ float: left;width: 600px;position: relative;}
+.start-left .girl img{position: absolute;bottom: 0;}
+.start-left .girl img:first-child{width: 320px;left:60px;animation-delay: 1s}
+.start-left .girl img:last-child{width: 180px;left:336px;animation-delay: 0.5s}
+.start-right{ float: right; width: 600px;position: relative;}
+.start-right .start-plan div{position: absolute;}
+.start-right .start-plan .start-plan1{top:100px;left: 50px;animation: planmove1 1s infinite}
+.start-right .start-plan .start-plan1 img{width: 280px;animation-delay: 1.5s}
+.start-right .start-plan .start-plan2{left:350px;top:50px;animation: planmove2 1s infinite}
+.start-right .start-plan .start-plan2 img{width: 200px;animation-delay: 2s}
+@keyframes planmove1{
+    0%{
+        top:100px;
+    }
+    50%{
+        top:95px;
+    }
+    100%{
+        top:100px;
+    }
+
+}
+@keyframes planmove2{
+    0%{
+        top:50px;
+    }
+    50%{
+        top:47px;
+    }
+    100%{
+        top:50px;
+    }
+
+}
+.start-right .start-btn{animation-delay: 2.5s}
+.start-right .start-btn a{position: absolute;display: block;width:175px;height: 75px;background: url('../../assert/img/btn_png.png') no-repeat;bottom: 100px;right:140px;cursor: pointer;font-size: 22px;font-weight: 600;color:#fff;text-align: center;line-height: 54px;}

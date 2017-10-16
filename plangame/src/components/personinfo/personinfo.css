@@ -1,0 +1,29 @@
+.select-left{
+    width: 300px;
+    float: left;
+    position: relative;
+}
+.select-left img{
+    margin-top: 20px;
+}
+.select-left .person-info{
+    width: 280px;
+    height: 180px;
+    background: rgba(0, 0, 0, 0.3);
+    
+    margin-top: 30px;
+    border-radius: 10px;
+    padding:10px;
+    color:#F0EFEF;
+
+}
+.select-left .person-info p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.select-left .personImg{
+    position: absolute;
+    bottom:-50px;
+}
+.select-left .personImg img{width: 260px}

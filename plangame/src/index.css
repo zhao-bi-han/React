@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+a{text-decoration: none}
+.commonWidth{ width: 1200px;margin: 0 auto;}
+.clearfix::after{content: "";display: block;clear: both;}
+.clearfix{zoom: 1};

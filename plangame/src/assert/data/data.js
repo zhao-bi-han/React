@@ -1,0 +1,40 @@
+const person=[
+{
+    id:1,
+    personImg:'1.jpg',
+    personInfo:{
+        infoImg:"person1.png",
+        infoTitle:"冒险之翼",
+        infoContent:"驾驶员小翼是一个满腔热血的直率少年。对小伙伴们十分信赖，也因为热情直爽的个性很受欢迎"
+    }
+},
+{
+    id:2,
+    personImg:'2.jpg',
+    personInfo:{
+        infoImg:"person2.png",
+        infoTitle:"甜心战神",
+        infoContent:"驾驶员为可爱活泼，迷糊淘气的小师妹。喜欢把自己的飞机涂装成甜蜜的颜色。不要因为她平时呆萌的样子就忽视她的强大战力哦"
+    }
+},
+{
+    id:3,
+    personImg:'3.jpg',
+    personInfo:{
+        infoImg:"person3.png",
+        infoTitle:"逆袭天使",
+        infoContent:"孤傲美丽的天才少女飞小羽，个性干练，不说多余的话也讨厌多余的装饰，能在瞬间干脆利落地击落敌机"
+    }
+},
+{
+    id:4,
+    personImg:'4.jpg',
+    personInfo:{
+        infoImg:"person4.png",
+        infoTitle:"钢铁雷霆",
+        infoContent:"驾驶员雷诺，曾是秘密特种兵，现在的他是飞行员们的大哥哥，成熟可靠，但有时会满怀心事"
+    }
+}
+]
+
+export default  person;

@@ -1,0 +1,74 @@
+.game-warp{
+    background: url('../../assert/img/b1.jpg') no-repeat;
+    background-size: cover;
+}
+#enemy img{
+    position: absolute;
+}
+#emit{
+    position: absolute;
+    width: 124px;
+    left:46%;
+    bottom:60px;
+    z-index: 1;
+}
+#bullet img{
+    position: absolute;
+    width: 30px;
+}
+.top-left{
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.top-left img{
+    margin-right: 10px;
+}
+.top-right{
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    z-index: 99;
+}
+.score{
+    float: left;
+    color:#fff;
+    font-size: 30px;
+    margin-right: 40px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.pauseBtn{
+    float: right;
+    cursor: pointer;
+     
+    /* background: url('../../assert/images/pause.png') no-repeat; */
+}
+.pauseBtn img{
+    width: 50px;
+    height: 50px;
+}
+.shade{
+    position: relative;
+    z-index: 999;
+    background: rgba(209, 205, 205, 0.5);
+}
+.pause a{
+    position: absolute;
+    display: block;
+    left: 50%;
+    top:200px;
+    transform: translateX(-100px);
+    width: 210px;
+    height: 66px;
+    line-height: 50px;
+    text-align: center;
+    background: url('../../assert/img/btn.png') no-repeat;
+    background-size: cover;
+    color:#fff;
+    font-size: 24px;
+}
+.pause a:last-child{
+    top:300px;
+}
