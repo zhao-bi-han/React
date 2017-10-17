@@ -5,12 +5,26 @@
 #enemy img{
     position: absolute;
 }
-#emit{
+.emit{
     position: absolute;
-    width: 124px;
+    width: 110px;
     left:46%;
     bottom:60px;
     z-index: 1;
+    height: 80px;
+}
+.emit.bg1{
+    width: 130px;
+    background: url('../../assert/img/img_plane_main.png') 0 -90px no-repeat;
+}
+.emit.bg2{
+    background: url('../../assert/img/img_plane_main.png') 0 -269px no-repeat;
+}
+.emit.bg3{
+    background: url('../../assert/img/img_plane_main.png') -359px -197px no-repeat;
+}
+.emit.bg4{
+    background: url('../../assert/img/img_plane_main.png') -393px -102px no-repeat;
 }
 #bullet img{
     position: absolute;

@@ -287,12 +287,13 @@ class Game extends Component {
 
 
     render() {
+        console.log(this.props);
         return (
             <div className="game-warp" style={{ height: this.props.screenY }}>
                 <div id="enemy" ref="enemyEle"></div>
                 <div id="bullet" ref="bulletEle"></div>
-                <div id="emit" onClick={this.EmitMove.bind(this)} ref="emitEle">
-                    <img src={require(`../../assert/images/${this.state.isCollide ? "info.png" : "img_item.png"}`)} />
+<div id="emit" onClick={this.EmitMove.bind(this)} ref="emitEle" className={`emit ${this.props.id?`bg${this.props.id}`:''}`}>
+                   {/*<img src={require(`../../assert/images/${this.state.isCollide ? "info.png" : "img_item.png"}`)} />*/} 
                 </div>
                 <div className="top-left" ref="lifeEle"> </div>
                 <div className="top-right clearfix">
