@@ -5,4 +5,4 @@
 * 显示发布留言的时间
 * 本地存储
 ### 效果展示
-![Image text](https://raw.githubusercontent.com/zhao-bi-han/React/master/comment-app/showImg/gaollg5.GIF)
+![Image text](https://github.com/zhao-bi-han/React/blob/master/%E7%95%99%E8%A8%80%E6%9D%BF/showImg/gaollg5.GIF)
