@@ -48,7 +48,7 @@ class Comment extends Component {
                 <div className="user">
                     <span>{this.props.comment.username}:</span>
                 </div>
-                <p>{this.props.comment.context}</p>
+                <p>{this.props.comment.content}</p>
                 <span className="time">{this.state.timeString}</span>
                 <div className="delwarp">
                     <a href="javascript:;" onClick={this.deletComment.bind(this)} className="del">删除</a>

@@ -7,16 +7,17 @@ class CommentList extends Component{
         comments: [],
       }
       
-      deleteComment(index){
+      onDeleteComment(index){
           if( this.props.onDeleteComment){   // 这个参数是从 commentApp中传来的
             this.props.onDeleteComment(index)
           }
         
       }
 render(){
+    // console.log(this.props.comments);
     return(
         <div className="commentList">
-              {this.props.comments.map((comment,i)=><Comment comment={comment} index={i} onDeleteComment={this.deleteComment.bind(this)} />)}
+           {this.props.comments.map((comment,i)=><Comment comment={comment} index={i} onDeleteComment={this.onDeleteComment.bind(this)} />)}  
         </div>
     )
 }
