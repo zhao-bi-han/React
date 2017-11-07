@@ -1,0 +1,49 @@
+.cart{
+    width: 700px;
+    margin: 0 auto;
+}
+table {
+    border-collapse:collapse;
+}
+table tr td{
+    text-align: center;
+}
+table thead tr td{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+}
+table thead tr td:nth-of-type(1){
+    width: 400px;
+}
+table tbody tr{
+    background-color: #fff;
+}
+table tr td{
+    border-bottom: 6px solid #f5f5f5
+}
+table tr td img{
+    width: 80px;
+    height: 80px;
+}
+table tr td p{
+    font-size: 14px;
+    color:#666;
+}
+table tr td span{
+    color:#FF0036;
+}
+table tr td a{
+    text-decoration: none;
+    color:rgb(223, 128, 150)
+
+}
+table tr td a:hover{
+    color:rgb(219, 9, 55);
+}
+table tbody  tr.noproduct{
+    background: none;
+    height: 100px;
+    color: #797777;
+
+}

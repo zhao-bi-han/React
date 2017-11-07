@@ -1,0 +1,22 @@
+[
+        {
+            "id":0,
+            "img":"good1.jpg",
+            "info":"KIKO4系丰盈滋养口红豆沙色",
+            "price":"55",
+            "num":3
+        },{
+            "id":1,
+            "img":"good2.jpg",
+            "info":"维达超韧系列 卫生纸巾",
+            "price":"12.9",
+            "num":2
+        },{
+            "id":2,
+            "img":"good3.jpg",
+            "info":"洁柔抽纸卫生纸FACE系列",
+            "price":"49.9",
+            "num":4
+        }
+        
+]
